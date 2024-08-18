@@ -1,0 +1,22 @@
+real comissao3pct=0;
+real comissao5pct=0;
+real diferenca=0;
+real salario-total=0;
+
+print(“ Salário Fixo: ”);
+int salario-fixo= read();
+print(“ Vendas Efetuadas: ”);
+real vendas= read();
+
+if(vendas <= 1500){
+    comissao3pct= 0.03 * vendas;
+}
+
+if(vendas > 1500){
+    diferenca= (vendas - 1500);
+    comissao5pct= (diferenca * 0.05);
+}
+
+salario-total= comissao3pct + comissao5pct + salario-fixo;
+print(" Salario Total: ");
+

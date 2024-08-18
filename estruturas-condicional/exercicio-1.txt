@@ -1,0 +1,17 @@
+print(“Quantidade Máxima”);
+string max= read();
+print(“Quantidade Atual”);
+string actual= read();  
+print(“Quantidade Miníma”);
+string min= read();
+print(“Quantidade Média”);
+string medium= read();
+string medium= max + min / 2;
+print(medium);
+
+if (actual=>medium) {
+print(“Não Efetuar Compra”)
+}
+else{
+ print(“Efetuar Compra”)
+}
